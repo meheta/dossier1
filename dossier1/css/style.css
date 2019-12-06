@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    font-family: 'EB Garamond', serif; 
+}
+
+.my-text{
+    background:linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.384)), url('../mountain-landscape-2031539_1920.jpg') center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.my-text h1{
+    font-size: 3rem;
+    letter-spacing: .4rem;
+    color: white;
+    font-size: bold;
+    padding-bottom: .8rem;
+}
+.my-text p{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.my-text a{
+    background-color:black ;
+    padding: .8rem 2.3rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
